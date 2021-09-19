@@ -1,21 +1,26 @@
 Project summary
 Hi I'm a production model predictor in flask
 
-instalacion
+## instalacion
 git clone url
 
-for windows:
+-for windows:
 python -m venv env ./Scripts/activate
 
-for ubuntu/mac:
+-for ubuntu/mac:
 sudo apt-get install python3-pip
 
 sudo pip3 install virtualenv
 
+-create virtualenv
+
+virtualenv env
+
+-activate env
 source ./env/bin/activate
 
-Env requirements
+-install requirements
 pip install -r requirements.txt
 
-to run app
+-run app
 python app.py
