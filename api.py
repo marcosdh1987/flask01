@@ -9,6 +9,10 @@ import numpy as np
 # Your API definition
 app = Flask(__name__)
 
+@app.route("/")
+def hello():
+    return "Welcome to machine learning model APIs!"
+
 @app.route('/predict', methods=['POST'])
 def predict():
     if lr:
